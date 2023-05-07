@@ -1,0 +1,33 @@
+config = {
+    "data": {
+        "val_frac": 0.02,
+        "dir": "data",
+        "files": [
+            "bleak_house.txt",
+            "christmas_carol.txt",
+            "david_copperfield.txt",
+            "expectations.txt",
+            "hard_times.txt",
+            "little_dorrit.txt",
+            "mutual_friend.txt",
+            "oliver_twist.txt",
+            "pickwick_papers.txt",
+            "tale_of_two_cities.txt",
+            "dombey_son.txt",
+        ],
+    },
+    "model": {
+        "emb_dim": 16,  # 512,
+        "num_heads": 1,  # 8,
+        "num_blocks": 1,  # 8,
+        "dropout": 0.1,
+    },
+    "lr": 1e-4,
+    "batch_size": 4,  # 128,
+    "max_context": 4,  # 64,
+    "max_iters": 1,  # 7000,
+    "eval_iters": 1,  # 100,
+    "eval_interval": 1,  # 1000,
+    "prompt": "It was a dark and stormy night",
+    "generate_n_tokens": 200,
+}
