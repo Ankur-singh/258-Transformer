@@ -6,18 +6,39 @@ This project is designed to demonstrate the implementation of Transformer-based 
 
 To get started with this project, follow these steps:
 
-1. Clone the Git repository by running `git clone https://github.com/Ankur-singh/258-Transformer.git` in your terminal.
-2. Create a new Python virtual environment by running `python -m venv <env-name>` in your terminal. Replace `<env-name>` with the name you want to give to the virtual environment.
-3. Activate the virtual environment by running `source <env-name>/bin/activate` in your terminal.
-4. Install the required dependencies by running `pip install -r requirements.txt` in your terminal. This will install all the necessary packages and dependencies needed to run the project.
+1. Clone the Git repository by running the following in your terminal.
+```bash
+git clone https://github.com/Ankur-singh/258-Transformer.git
+``` 
+   
+2. Create a new Python virtual environment and source it
+```bash
+python -m venv <env-name>
+source <env-name>/bin/activate
+```
+Replace `<env-name>` with the name you want to give to the virtual environment.
+
+3. Lastly, install all the required dependencies needed to run the project
+```bash
+pip install -r requirements.txt
+``` 
 
 ## Usage
 Navigate to the root directory of the project in your terminal and follow the instruction below:
 
 1. Downloading the dataset by running `bash get_data.sh`. This will create a `data` folder and will download "Charles Dickens"'s novels. 
 2. To train the language model, run `python train.py`. This will initiate the training process and will save the trained model with name `model.pth` (in the CWD). You can change the data, model, or training configuration in `config.py` file. 
-3. To generate text using the trained language model, run `python generate.py`.
-4. To start the streamlit web-app, simply run `streamlit run app.py`. This will start the web app, and you will be able to enter prompts and generate text based on the trained model.
+
+**Note:** You can also download the model weights from [here](https://github.com/Ankur-singh/258-Transformer/releases/download/untagged-15c4983c1dfe7e853700/model.pth) or simply run 
+
+```bash
+wget https://github.com/Ankur-singh/258-Transformer/releases/download/untagged-15c4983c1dfe7e853700/model.pth
+```
+
+- To generate text using the trained language model, run `python generate.py`.
+
+
+- To start the streamlit web-app, simply run `streamlit run app.py`. This will start the web app, and you will be able to enter prompts and generate text based on the trained model.
 
 ## Contributors
 

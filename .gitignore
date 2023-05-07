@@ -6,6 +6,11 @@ __pycache__/
 # C extensions
 *.so
 
+# model weights
+*.h5
+*.hdf5
+*.pth
+
 # data
 data/
 

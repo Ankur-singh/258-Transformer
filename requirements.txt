@@ -1,0 +1,4 @@
+tiktoken
+streamlit
+pytorch
+tqdm
