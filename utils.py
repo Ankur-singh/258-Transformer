@@ -24,10 +24,12 @@ def get_batch(data, batch_size=32, max_context=128, device="cpu"):
 
 
 @torch.no_grad()
-def generate(model, enc, prompt, n_tokens=200):
+def generate(model, enc, prompt, n_tokens=200, temperature=1.2, top_k=None):
     init_tensor = enc.encode(prompt)
     context = torch.tensor(init_tensor, dtype=torch.long).view(1, -1).to(device)
-    generated_tkns = model.generate(context, n_tokens=n_tokens)[0].tolist()
+    generated_tkns = model.generate(
+        context, n_tokens=n_tokens, temperature=temperature, top_k=top_k
+    )[0].tolist()
     return enc.decode(generated_tkns)
 
 

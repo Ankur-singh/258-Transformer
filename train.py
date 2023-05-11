@@ -38,6 +38,7 @@ def main(config):
 
     # model
     opt = torch.optim.Adam(model.parameters(), lr=config["lr"])
+    scheduler = torch.optim.lr_scheduler.StepLR(opt, step_size=3000, gamma=0.1)
     print(f"Number of parameters (in Millions): {get_param_count(model) / 1e6:.4f} M")
 
     # training
@@ -52,6 +53,7 @@ def main(config):
         opt.zero_grad(set_to_none=True)
         loss.backward()
         opt.step()
+        scheduler.step()
 
         # every once in a while evaluate the loss on train and val sets
         if i % config["eval_interval"] == 0 or i == config["max_iters"] - 1:

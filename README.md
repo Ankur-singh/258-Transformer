@@ -32,7 +32,7 @@ Navigate to the root directory of the project in your terminal and follow the in
 **Note:** You can also download the model weights from [here](https://github.com/Ankur-singh/258-Transformer/releases/download/untagged-15c4983c1dfe7e853700/model.pth) or simply run 
 
 ```bash
-wget https://github.com/Ankur-singh/258-Transformer/releases/download/untagged-15c4983c1dfe7e853700/model.pth
+wget https://github.com/Ankur-singh/258-Transformer/releases/download/v0.1/model.pth
 ```
 
 - To generate text using the trained language model, run `python generate.py`.

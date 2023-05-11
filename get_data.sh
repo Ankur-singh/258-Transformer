@@ -10,3 +10,14 @@ wget -q -O data/pickwick_papers.txt https://www.gutenberg.org/files/580/580-0.tx
 wget -q -O data/mutual_friend.txt https://www.gutenberg.org/files/883/883-0.txt
 wget -q -O data/little_dorrit.txt https://www.gutenberg.org/cache/epub/963/pg963.txt
 wget -q -O data/dombey_son.txt https://www.gutenberg.org/cache/epub/821/pg821.txt
+wget -q -O data/mystery_of_edwin_drood.txt https://www.gutenberg.org/cache/epub/564/pg564.txt
+wget -q -O data/martin_chuzzlewit.txt https://www.gutenberg.org/files/968/968-0.txt
+wget -q -O data/uncommercial_traveller.txt https://www.gutenberg.org/files/914/914-0.txt
+wget -q -O data/life_of_charles_dickens.txt https://www.gutenberg.org/cache/epub/25851/pg25851.txt
+wget -q -O data/child_dream.txt https://www.gutenberg.org/files/42232/42232-0.txt
+wget -q -O data/mugby_junction.txt https://www.gutenberg.org/files/42232/42232-0.txt
+wget -q -O data/hunted_down.txt https://www.gutenberg.org/files/807/807-0.txt
+wget -q -O data/pictures_from_italy.txt  https://www.gutenberg.org/files/650/650-0.txt
+wget -q -O data/magic_fishbone.txt https://www.gutenberg.org/cache/epub/23344/pg23344.txt
+wget -q -O data/christmas_stories.txt https://www.gutenberg.org/files/1467/1467-0.txt
+wget -q -O data/critical_study.txt https://www.gutenberg.org/cache/epub/68682/pg68682.txt
