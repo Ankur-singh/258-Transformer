@@ -68,7 +68,7 @@ def main(config):
     # generate some text
     model.eval()
     print("--- Generated text ---")
-    print(generate(model, enc, config["prompt"], config["generate_n_tokens"]))
+    print(generate(model, enc, **config["generate"]))
 
 
 if __name__ == "__main__":

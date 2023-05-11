@@ -13,8 +13,12 @@ model, enc = load_model_and_enc()
 
 st.title("Text Generation with Transformers")
 prompt = st.text_input("Enter a prompt", "It was a dark and stormy night")
-n_tokens = st.slider("Number of tokens to generate", 50, 500, 200, 10)
-temperature = st.slider("Temperature", 0.5, 2.0, 1.2, 0.1)
-top_k = st.slider("Top-k", 0, 100, 5, 1)
+
+cols = st.columns(3)
+n_tokens = cols[0].slider("Number of tokens to generate", 50, 500, 200, 10)
+temperature = cols[1].slider("Temperature", 0.5, 2.0, 1.2, 0.1)
+top_k = cols[2].slider("Top-k", 0, 100, 5, 1)
+
+
 if st.button("Generate"):
     st.write(generate(model, enc, prompt, n_tokens, temperature, top_k))

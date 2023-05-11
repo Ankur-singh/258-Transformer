@@ -41,7 +41,7 @@ config = {
     "eval_interval": 1000,
     "generate": {
         "prompt": "It was a dark and stormy night",
-        "generate_n_tokens": 200,
+        "n_tokens": 200,
         "temperature": 1.2,
         "top_k": 5,
     },

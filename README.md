@@ -29,10 +29,10 @@ Navigate to the root directory of the project in your terminal and follow the in
 1. Downloading the dataset by running `bash get_data.sh`. This will create a `data` folder and will download "Charles Dickens"'s novels. 
 2. To train the language model, run `python train.py`. This will initiate the training process and will save the trained model with name `model.pth` (in the CWD). You can change the data, model, or training configuration in `config.py` file. 
 
-**Note:** You can also download the model weights from [here](https://github.com/Ankur-singh/258-Transformer/releases/download/untagged-15c4983c1dfe7e853700/model.pth) or simply run 
+**Note:** You can also download the model weights from [here](https://github.com/Ankur-singh/258-Transformer/releases/download/v0.2/model.pth) or simply run 
 
 ```bash
-wget https://github.com/Ankur-singh/258-Transformer/releases/download/v0.1/model.pth
+wget https://github.com/Ankur-singh/258-Transformer/releases/download/v0.2/model.pth
 ```
 
 - To generate text using the trained language model, run `python generate.py`.
