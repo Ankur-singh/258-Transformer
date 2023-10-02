@@ -1,4 +1,4 @@
-# 258-Transformer
+# Transformer
 
 This project is designed to demonstrate the implementation of Transformer-based language models for text generation.
 
