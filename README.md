@@ -1,6 +1,6 @@
 # Transformer
 
-This project is designed to demonstrate the implementation of Transformer-based language models for text generation.
+This project implements Transformer-based language models for text generation.
 
 ## Get Started
 
