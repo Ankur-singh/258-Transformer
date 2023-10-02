@@ -2,7 +2,7 @@
 
 This project is designed to demonstrate the implementation of Transformer-based language models for text generation.
 
-## Getting Started
+## Get Started
 
 To get started with this project, follow these steps:
 
