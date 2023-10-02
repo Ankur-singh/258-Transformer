@@ -4,7 +4,7 @@ This project is designed to demonstrate the implementation of Transformer-based 
 
 ## Get Started
 
-To get started with this project, follow these steps:
+Follow these steps to get started:
 
 1. Clone this repository by running the following in your terminal.
 ```bash
