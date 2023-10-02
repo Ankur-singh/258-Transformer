@@ -1,4 +1,4 @@
-# 258-Transformer
+# Transformer
 
 This project is designed to demonstrate the implementation of Transformer-based language models for text generation.
 
@@ -6,7 +6,7 @@ This project is designed to demonstrate the implementation of Transformer-based 
 
 Follow these steps to get started:
 
-1. Clone the Git repository by running the following in your terminal.
+1. Clone this repository by running the following in your terminal.
 ```bash
 git clone https://github.com/Ankur-singh/258-Transformer.git
 ``` 
